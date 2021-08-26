@@ -1,12 +1,12 @@
 import React from 'react';
 import Hello from './examples/Hello';
+import InputSample from './examples/InputSample';
 import Wrapper from './examples/Wrapper';
 
 function App(){
   return (
     <Wrapper>
-      <Hello />
-      <Hello name = "강찬" color = "blue" />
+      <InputSample />
     </Wrapper>
   )
 }
