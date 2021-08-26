@@ -1,9 +1,9 @@
 import React, { useState, useRef, useMemo, useCallback } from 'react';
-import Hello from './examples/Hello';
-import InputSample from './examples/InputSample';
-import Wrapper from './examples/Wrapper';
-import UserList from './examples/UserList';
-import CreateUser from './examples/CreateUser';
+import Hello from './Hello';
+import InputSample from './InputSample';
+import Wrapper from './Wrapper';
+import UserList from './UserList';
+import CreateUser from './CreateUser';
 
 function countActiveUsers(users){
   console.log('활성 사용자 수를 세는 중...')

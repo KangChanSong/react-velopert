@@ -20,13 +20,13 @@ const ADD_TO_LIST = 'ADD_TO_LIST';
 // 액션 생성 함수는 주로 camelCase로 작성
 const increase = () => {
     return {
-        type : INCREASE;
+        type : INCREASE,
     }
 }
 
 const decrease = () => {
     return {
-        type : DECREASE;
+        type : DECREASE,
     }
 }
 
